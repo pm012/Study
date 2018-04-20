@@ -40,5 +40,4 @@ public class PersonCast {
 			System.out.println("dancing");
 		}
 	}
-
 }
