@@ -30,6 +30,7 @@ public interface Person {
 
 	class Coder implements Person {
 		void coding() {
+
 			System.out.println("Usually I create code.");
 		}
 
