@@ -3,6 +3,7 @@ package com.task14.task1407;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+//main class
 public class PersonCast {
 	public static void main(String[] args) throws Exception {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
