@@ -25,6 +25,7 @@ public class ConsoleCalculator {
 
 	}
 
+	// return bifunction
 	public double calculate(Integer a, Integer b, BiFunction<Integer, Integer, Double> biFunc) {
 
 		return biFunc.apply(a, b);
