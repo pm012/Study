@@ -1,4 +1,4 @@
-package com.taksk14.task1415;
+package com.task14.task1415;
 
 public interface ClenableVisitor {
 	void visit(Apt1Room app);

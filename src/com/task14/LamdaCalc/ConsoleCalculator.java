@@ -1,4 +1,4 @@
-package com.taksk14.LamdaCalc;
+package com.task14.LamdaCalc;
 
 import java.util.function.BiFunction;
 
