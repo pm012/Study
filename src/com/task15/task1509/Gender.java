@@ -13,6 +13,7 @@ public class Gender {
 
 	public static void printName(Human man) {
 		System.out.println(man.getClass().getSimpleName());
+		throw new NullPointerException();
 
 	}
 
