@@ -17,8 +17,8 @@ public class URLParser {
 	 * 
 	 * double 3.14
 	 * 
-	 * if possible to convert parameter to double - call alert double, otherwise
-	 * call aler(String str)
+	 * if possible to convert parameter to double - call alert with parameter
+	 * double, otherwise call alert(String str)
 	 * 
 	 * 
 	 */
