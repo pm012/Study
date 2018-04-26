@@ -17,11 +17,16 @@ public class URLParser {
 	 * 
 	 * double 3.14
 	 * 
+	 * if possible to convert parameter to double - call alert double, otherwise
+	 * call aler(String str)
+	 * 
+	 * 
 	 */
 
 	public static void main(String[] args) {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		ArrayList<Double> doubleVal = new ArrayList<>();
+		ArrayList<String> stringVal = new ArrayList<>();
 		try {
 			String url = reader.readLine();
 
@@ -43,7 +48,7 @@ public class URLParser {
 						}
 
 					} catch (NumberFormatException e) {
-						System.out.println("ERROR: " + e.getMessage());
+						stringVal.add(sVal);
 						continue;
 
 					}
@@ -59,9 +64,15 @@ public class URLParser {
 
 		System.out.println();
 
-		for (Double d : doubleVal) {
-			alert(d);
-		}
+		if (doubleVal.size() > 0)
+			for (Double d : doubleVal) {
+				alert(d);
+			}
+
+		if (stringVal.size() > 0)
+			for (String s : stringVal) {
+				alert(s);
+			}
 
 	}
 
