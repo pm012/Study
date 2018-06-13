@@ -1,0 +1,3 @@
+The main goal of the programmer is to select correct implementation of feature
+he just wants to implement.
+In case tester find any defect - don't bolieve him. It's mess!
